@@ -22,6 +22,8 @@ public class HashTable {
 		}
 		// Display the linked list
 		System.out.println(list);
+		list.remove("avoidable");
+		System.out.println(list);
 
 	}
 }
