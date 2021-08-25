@@ -1,10 +1,10 @@
 package com.ds.hashTable;
 
-public class LinkedList<K,V> {
+public class LinkedList<K, V> {
 	MyMapNode head;
 	MyMapNode tail;
 
-	// creating add method
+	/// creating add method
 	public void add(K key, V value) {
 		MyMapNode<K, V> myNewNode = (MyMapNode<K, V>) searchNode(key);
 		if (myNewNode == null) {
@@ -56,5 +56,4 @@ public class LinkedList<K,V> {
 	public void printNodes() {
 		System.out.println("My nodes: " + head);
 	}
-
 }
